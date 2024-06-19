@@ -56,7 +56,6 @@ div {
 }
 
 section input {
-  width: 70%;
   padding: 10px 5px;
   margin: 5px;
   border-radius: 5px;
@@ -89,11 +88,11 @@ button:hover {
 
 #reserve {
   background-color: #caca01;
+  margin-top: 10px;
 }
 
 #caraKalkulasi {
   background-color: #e7e7e7;
-  width: 70%;
   padding: 10px 5px;
   margin: 5px;
   border-radius: 5px;
