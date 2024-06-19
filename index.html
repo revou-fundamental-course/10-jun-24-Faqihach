@@ -14,20 +14,25 @@
   </head>
   <body>
     <main>
-      <h2>Konversi Suhu</h2>
       <!-- Suhu Celsius -->
       <section>
-        <label for="celsius" id="labelCelsius">Celsius (°C) :</label> <br />
+        <h2>Konversi Suhu</h2>
+        <p class="suhu">
+          Masukkan Suhu ke dalam kotak di bawah ini lalu klik konversi untuk
+          mendapatkan hasilnya.
+        </p>
+        <label for="celsius" id="labelCelsius">Celsius (°C) :</label>
         <input
           type="number"
           name="celsius"
           id="celsius"
           placeholder="Masukkan Angka"
         />
-        <br />
         <!-- Button -->
         <div class="btn">
-          <button type="submit" id="submit" onclick="konversi()">Submit</button>
+          <button type="submit" id="submit" onclick="konversi()">
+            Konversi
+          </button>
           <button type="reset" id="reset" onclick="reset()">Reset</button>
           <button type="button" id="reserve" onclick="reverse()">
             Reverse
@@ -35,7 +40,6 @@
         </div>
 
         <label for="fahrenheit" id="labelFahrenheit">Fahrenheit (°F) : </label>
-        <br />
         <input
           type="number"
           name="fahrenheit"
